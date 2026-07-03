@@ -50,3 +50,5 @@ Open to **AI Engineer · GenAI Engineer · Applied AI Engineer** roles.
 📧 [jainnancy779@gmail.com](mailto:jainnancy779@gmail.com) · 🔗 [LinkedIn](https://www.linkedin.com/in/nancyjain779/) · 🌐 [Portfolio](https://nancyjain779.github.io/)
 
 <!-- profile -->
+
+<!-- refresh 1783107480 -->
