@@ -9,6 +9,8 @@
   2+ years turning large language models into reliable, real-world products.
 </p>
 
+<p align="center"><i>Currently deepening work in LLM evaluation and agentic workflows.</i></p>
+
 <p align="center">
   <a href="https://nancyjain779.github.io/"><img src="https://img.shields.io/badge/Portfolio-4f9cff?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
   <a href="https://www.linkedin.com/in/nancyjain779/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
