@@ -1,11 +1,9 @@
-<h1 align="center">Hi, I'm Nancy Jain 👋</h1>
-
 <p align="center">
-  <b>AI / GenAI Engineer</b> — I build production LLM systems that ship.
+  <img src="./banner.png" alt="Nancy Jain — AI / GenAI Engineer" width="100%" />
 </p>
 
 <p align="center">
-  RAG pipelines · LLM-as-judge evaluation · multimodal scoring · resilient AWS Bedrock services.<br/>
+  <b>I build production LLM systems that ship.</b><br/>
   2+ years turning large language models into reliable, real-world products.
 </p>
 
