@@ -5,8 +5,8 @@
 <h3 align="center">Nancy Jain · AI / GenAI Engineer</h3>
 <p align="center"><b>I build production LLM & agentic AI systems that ship.</b></p>
 <p align="center">
-  RAG · LLM evaluation · agentic workflows · multimodal scoring · AWS Bedrock<br/>
-  2+ years turning large language models into reliable, real-world products.
+  LangGraph agentic text-to-SQL · RAG · MCP tool-calling · cross-encoder reranking · LLM-as-judge · AWS Bedrock<br/>
+  Nearly 3 years turning large language models into reliable, real-world products.
 </p>
 
 <p align="center">
@@ -22,24 +22,25 @@
 
 | | |
 | :--- | :--- |
-| **2+ yrs** | Production AI engineering across LLM classification, RAG, evaluation & agentic systems |
-| **20M+** | Product records classified via embeddings → Qdrant → Bedrock pipeline |
-| **80 → 97%** | Tagging accuracy improvement on Meta Mapper (verified holdout eval) |
-| **5 tools** | MCP server + Slack agent for citation-grounded doc Q&A (LiteLLM) |
+| **~3 yrs** | Production AI engineering across agentic LLM systems, RAG, retrieval & evaluation |
+| **AskAI** | LangGraph agentic text-to-SQL assistant (13+ node StateGraph) — tool-calling, LLM-as-judge, self-healing |
+| **2M+** | Product records classified via embeddings → Qdrant → Bedrock pipeline |
+| **80 → 97%** | Tagging accuracy on Meta Mapper (verified holdout eval) |
+| **5 tools** | MCP tool-calling agent + Slack bot for citation-grounded doc Q&A (LiteLLM) |
 | **Live** | RAG assistant deployed on Execute Community platform |
 
 ---
 
 ### What I build
 
-**LLM systems at scale**
-Queue-based microservices (FastAPI · SQS · S3 · Kubernetes) that classify millions of product records via retrieval-augmented LLM pipelines.
-
 **Agentic AI & tool use**
-MCP servers with multi-tool orchestration — built an internal **semantics_info** agent (5 MCP tools + Slack bot) for citation-grounded Q&A over service docs via LiteLLM.
+LangGraph agents with conditional routing, tool-calling, self-healing loops, and LLM-as-judge validation — built **AskAI**, a production agentic text-to-SQL assistant (13+ node StateGraph) answering NL analytics over Athena/DuckDB with RAG schema grounding, Redis/Postgres state, and cross-turn memory. Also built an internal **MCP tool-calling agent** (5 tools + Slack bot) for citation-grounded doc Q&A via LiteLLM.
 
-**LLM evaluation & quality**
-LLM-as-judge services auditing 4 tagging domains with pass/fail/not-sure verdicts, async batch jobs, and config-driven validation.
+**Retrieval, reranking & LLM systems at scale**
+Microservices (FastAPI · SQS · S3 · Kubernetes) classifying millions of product records — **Meta Mapper** pairs embeddings → Qdrant retrieval → Bedrock Claude with a graph-based retrieval + reranking engine (NetworkX taxonomy graph, hybrid vector + BM25, cross-encoder reranker) that lifts long-tail coverage ~3× (94.7% Recall@5).
+
+**Search & matching quality**
+Product matching engine with a fine-tuned cross-encoder reranker on Solr (Top-1, MRR, NDCG, AUC); LLM-as-judge validation and prompt-variant evaluation.
 
 **Multimodal & resilient backends**
 Image/text scoring with multimodal Claude; hardened Bedrock inference (STS refresh, backoff retries, streaming batch processing).
@@ -59,7 +60,7 @@ Image/text scoring with multimodal Claude; hardened Bedrock inference (STS refre
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
 </p>
 
-<p><i>RAG · Agentic AI · MCP · Tool Calling · LLM Evaluation · Prompt Engineering · Semantic Search · Multimodal LLMs · LiteLLM</i></p>
+<p><i>LangGraph · Text-to-SQL · Agentic AI · MCP · Tool Calling · RAG · Cross-Encoder Reranking · Hybrid Search · LLM-as-Judge · Fine-Tuning · Multimodal LLMs · LiteLLM</i></p>
 
 ---
 
@@ -67,9 +68,10 @@ Image/text scoring with multimodal Claude; hardened Bedrock inference (STS refre
 
 | Project | What it does | Link |
 | :--- | :--- | :---: |
+| **AskAI** ⭐ | LangGraph agentic text-to-SQL assistant — tool-calling, LLM-as-judge, self-healing SQL, cross-turn memory | NDA |
+| **Meta Mapper** | Taxonomy classifier — 2M+ records, 80→97% accuracy, graph-based retrieval + cross-encoder reranking | NDA |
+| **MCP Doc Assistant** | 5-tool MCP tool-calling agent + Slack bot for citation-grounded doc Q&A | NDA |
 | **Execute Community (EXCOM)** | RAG AI assistant — summarize, suggest topics, answer queries. Live in production. | [App ↗](https://www.executepartners.com/Community) · [Code](https://github.com/nancyjain779/Execute_AI) |
-| **Meta Mapper** | 7+ microservice LLM taxonomy platform — 20M+ records, 80→97% accuracy | NDA |
-| **semantics_info MCP Agent** | 5-tool MCP server + Slack bot for citation-grounded doc Q&A | NDA |
 | **Portfolio** | Selected work, experience, résumé | [Site ↗](https://nancyjain779.github.io/) |
 
 ---
